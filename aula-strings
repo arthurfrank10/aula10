@@ -1,0 +1,40 @@
+// this is a js file
+// arthur
+// 1. a. undefined
+// b. null
+// c. 11
+// d. 3
+// e. 19
+// f. 9
+// 2. SUBI NUM ONIBUS EM MARROCOS, Subi num onibus em Mirricos, 27
+//escrita de codigo
+// 1.
+let seuNome = prompt("crie seu usuario:");
+let seuEmail = prompt("digite seu email:");
+console.log(`o email, ${seuEmail.trim()}, foi cadastrado com sucesso. Seja bem-vinda(o),, ${seuNome}`);
+
+//2.
+const comidas = ["churras", "strogonoff", "massa c/calabresa", "pizza", "xis"];
+// a.
+console.log(comidas);
+// b.
+console.log("essas sao minhas comidas favoritas"); console.log(comidas[0]); console.log(comidas[1]); console.log(comidas[2]); console.log(comidas[3]); console.log(comidas[4]);
+// c.
+let comida = prompt("qual sua comida favorita?");
+comidas[1] = comida;
+console.log(comidas);
+// 3.  
+// a.
+let listaDeTarefas = [];
+// b. 
+listaDeTarefas = [prompt("cite 1 tarefa do seu dia a dia"), prompt("cite 1 tarefa do seu dia a dia"), prompt("cite 1 tarefa do seu dia a dia")];
+
+// c.
+console.log(listaDeTarefas);
+
+// d.
+let prompt2 = Number(prompt("cite o indice de uma tarefa que voce ja fez hj"));
+
+// e.
+listaDeTarefas.splice(prompt2, 1);
+console.log(listaDeTarefas);
